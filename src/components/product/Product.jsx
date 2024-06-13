@@ -18,6 +18,8 @@ const Product = () => {
     }
   }, [searchParams]);
 
+  document.body.style.overflow = detailData ? "hidden" : "auto";
+
   useEffect(() => {
     axios
       .get(`${API_URL}/products`, { params: { limit: 8 } })

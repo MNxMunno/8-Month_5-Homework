@@ -7,9 +7,7 @@ const Home = () => {
   return (
     <>
       <Product />
-      {/* <Model>
-        <input type="text" name="" id="" />
-      </Model> */}
+      {
     </>
   );
 };
